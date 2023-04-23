@@ -33,7 +33,12 @@ namespace BusinessLayer.Concretes
             return _categoryDal.getListAll();
         }
 
-        public Category getByCategoryId(int id)
+        public List<Category> getAllCategories(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Category getCategoryById(int id)
         {
             return _categoryDal.getById(id);
         }

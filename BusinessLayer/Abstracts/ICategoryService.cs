@@ -12,8 +12,8 @@ namespace BusinessLayer.Abstracts
         void addCategory(Category category);
         void deleteCategory(Category category);
         void updateCategory(Category category);
-        List<Category> getAllCategories();
-        Category getByCategoryId(int id);
+        List<Category> getAllCategories(int id);
+        Category getCategoryById(int id);
 
     }
 }

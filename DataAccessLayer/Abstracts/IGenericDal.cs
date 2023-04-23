@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,5 +14,7 @@ namespace DataAccessLayer.Abstracts
         void update(T t);
         void delete(T t);
         T getById(int id);
+        // Sartli listeleme icin 
+        List<T> getListAll(Expression<Func<T, bool>> filter);
     }
 }

@@ -9,7 +9,8 @@ namespace DataAccessLayer.Abstracts
 {
     public interface IBlogDal : IGenericDal<Blog>
     {
-       
+
+        List<Blog> getListWithCategort();
 
     }
 }
