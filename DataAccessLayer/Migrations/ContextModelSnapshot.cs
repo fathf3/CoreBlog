@@ -91,9 +91,14 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("writerId")
+                        .HasColumnType("int");
+
                     b.HasKey("blogId");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("writerId");
 
                     b.ToTable("Blogs");
                 });
@@ -193,6 +198,26 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Contacts");
                 });
 
+            modelBuilder.Entity("EntityLayer.Concrete.NewsLatter", b =>
+                {
+                    b.Property<int>("mailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("mailId"), 1L, 1);
+
+                    b.Property<string>("mail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("mailStatus")
+                        .HasColumnType("bit");
+
+                    b.HasKey("mailId");
+
+                    b.ToTable("NewsLatters");
+                });
+
             modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
                 {
                     b.Property<int>("WriterId")
@@ -237,7 +262,15 @@ namespace DataAccessLayer.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("EntityLayer.Concrete.Writer", "writer")
+                        .WithMany("blogs")
+                        .HasForeignKey("writerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("category");
+
+                    b.Navigation("writer");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Comment", b =>
@@ -259,6 +292,11 @@ namespace DataAccessLayer.Migrations
             modelBuilder.Entity("EntityLayer.Concrete.Category", b =>
                 {
                     b.Navigation("Blogs");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Writer", b =>
+                {
+                    b.Navigation("blogs");
                 });
 #pragma warning restore 612, 618
         }

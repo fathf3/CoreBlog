@@ -10,7 +10,7 @@ namespace CoreDemo.ViewComponents.Category
 
         public IViewComponentResult Invoke()
         {
-            var values = CategoryManager.getAllCategories();
+            var values = CategoryManager.getList();
             return View(values);
         }
 

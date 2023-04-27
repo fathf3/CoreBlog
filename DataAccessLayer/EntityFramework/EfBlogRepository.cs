@@ -13,12 +13,21 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfBlogRepository : GenericRepository<Blog>, IBlogDal
     {
-        public List<Blog> getListWithCategort()
+        public List<Blog> getListWithCategory()
         {
             using(var c= new Context())
             {
                 // Include Blog -> Category e ulasmamizi saglar
                 return c.Blogs.Include(x => x.category).ToList();
+            }
+        }
+
+        public List<Blog> getListWithCategoryByWriter(int id)
+        {
+            using (var c = new Context())
+            {
+                // Include Blog -> Category e ulasmamizi saglar
+                return c.Blogs.Include(x => x.category).Where(x => x.writerId == id).ToList();
             }
         }
     }

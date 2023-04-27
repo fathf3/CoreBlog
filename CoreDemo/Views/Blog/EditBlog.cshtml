@@ -1,0 +1,41 @@
+﻿@model EntityLayer.Concrete.Blog
+
+@{
+    ViewData["Title"] = "EditBlog";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+<div class="container-md" style="background-color : aliceblue">
+<h1>Blog Düzenmele Sayfası</h1>
+
+@using (Html.BeginForm("EditBlog","Blog", FormMethod.Post))
+{
+
+    @Html.Label("Blog Başlığı")
+    @Html.TextBoxFor(x => x.blogTitle, new {@class = "form-control"})
+    @Html.ValidationMessageFor(x => x.blogTitle)
+    <br />
+    @Html.Label("Blog Görseli")
+    @Html.TextBoxFor(x => x.bloglImage, new {@class = "form-control"})
+    @Html.ValidationMessageFor(x => x.bloglImage)
+    <br />
+    @Html.Label("Blog Kucuk Gorsel")
+    @Html.TextBoxFor(x => x.blogThumbnailImage, new {@class = "form-control"})
+    @Html.ValidationMessageFor(x => x.blogThumbnailImage)
+    <br />
+    @Html.Label("Blog Kategori")
+    @Html.DropDownListFor(x => x.CategoryId,(List<SelectListItem>)ViewBag.categoryList, new {@class ="form-control"})
+    @Html.ValidationMessageFor(x => x.CategoryId)
+    <br />
+    @Html.Label("Blog İçerigi")
+    @Html.TextAreaFor(x => x.blogContent,13,3, new {@class = "form-control"})
+    @Html.ValidationMessageFor(x => x.blogContent)
+
+    <br />
+
+<br />
+    <button class="btn btn-success">Yazıyı Kaydet</button>
+}
+<br />
+<br />
+</div>
+

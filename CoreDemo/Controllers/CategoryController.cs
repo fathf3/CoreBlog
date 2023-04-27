@@ -9,7 +9,7 @@ namespace CoreDemo.Controllers
         CategoryManager categoryManager = new CategoryManager(new EfCategoryRepository());
         public IActionResult Index()
         {
-            var values = categoryManager.getAllCategories();
+            var values = categoryManager.getList();
             return View(values);
         }
     }

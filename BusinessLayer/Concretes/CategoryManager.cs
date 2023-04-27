@@ -16,36 +16,34 @@ namespace BusinessLayer.Concretes
 
         public CategoryManager(ICategoryDal categoryDal)
         {
-              _categoryDal = categoryDal;
-        }
-        public void addCategory(Category category)
-        {
-            _categoryDal.insert(category);
+            _categoryDal = categoryDal;
         }
 
-        public void deleteCategory(Category category)
-        {
-            _categoryDal.delete(category);
-        }
-
-        public List<Category> getAllCategories()
-        {
-            return _categoryDal.getListAll();
-        }
-
-        public List<Category> getAllCategories(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Category getCategoryById(int id)
+        public Category getById(int id)
         {
             return _categoryDal.getById(id);
         }
 
-        public void updateCategory(Category category)
+        public List<Category> getList()
         {
-            _categoryDal.update(category);
+            return _categoryDal.getListAll();
         }
+
+        public void Tadd(Category t)
+        {
+            _categoryDal.insert(t);
+        }
+
+        public void Tdelete(Category t)
+        {
+            _categoryDal.delete(t);
+        }
+
+        public void Tupdate(Category t)
+        {
+            _categoryDal.update(t);
+        }
+
+
     }
 }
