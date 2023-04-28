@@ -29,7 +29,7 @@
         <tr>
             <td>@item.blogId</td>
             <td>@item.blogTitle</td>
-            <td>@item.blogCreateDate</td>
+            <td>@item.blogCreateDate.ToLongDateString()</td>
             <td>@item.category.categoryName</td>
             <td>
             @if (item.blogStatus)

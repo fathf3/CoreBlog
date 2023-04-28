@@ -53,9 +53,7 @@ namespace CoreDemo.Controllers
         [HttpPost]
         public IActionResult EditBlog(Blog blog)
         {
-            var blogValue = blogManager.getById(blog.blogId);
-            blog.writerId = 4;
-            blog.blogCreateDate = DateTime.Now;
+            
             blogManager.Tupdate(blog);
             
             return RedirectToAction("BlogListByWriter");

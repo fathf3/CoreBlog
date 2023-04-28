@@ -297,6 +297,10 @@
       "PackagePath": "staticwebassets\\CoreBlogTema\\webfonts\\fa-solid-900.woff2"
     },
     {
+      "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\WriterImageFiles\\03c8c0f7-583d-4744-b29c-3ff25f44ede0.png",
+      "PackagePath": "staticwebassets\\WriterImageFiles\\03c8c0f7-583d-4744-b29c-3ff25f44ede0.png"
+    },
+    {
       "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -28,7 +28,7 @@ namespace CoreDemo.Controllers
             writer.writerAbout = "Hakkında bilgisi eklenecek";
             ValidationResult result = validationRules.Validate(writer);
             if(result.IsValid) {
-                writerManager.addWriter(writer);
+                writerManager.Tadd(writer);
                 return RedirectToAction("Index", "Blog");
             }
             else

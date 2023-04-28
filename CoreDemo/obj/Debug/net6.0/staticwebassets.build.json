@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4eA6/bGT/sz8vkAzqcb14cgH5ejZqpbj2fOAnvBHKiQ=",
+  "Hash": "joWVHBF2bltda3hQ8q1TTeTk0/CX2/NYQU4H3+9daew=",
   "Source": "CoreDemo",
   "BasePath": "_content/CoreDemo",
   "Mode": "Default",
@@ -4894,6 +4894,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\WriterImageFiles\\03c8c0f7-583d-4744-b29c-3ff25f44ede0.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "WriterImageFiles/03c8c0f7-583d-4744-b29c-3ff25f44ede0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WriterImageFiles\\03c8c0f7-583d-4744-b29c-3ff25f44ede0.png"
     }
   ]
 }

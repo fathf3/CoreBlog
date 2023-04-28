@@ -9,7 +9,10 @@
 
 @using (Html.BeginForm("EditBlog","Blog", FormMethod.Post))
 {
-
+    @Html.HiddenFor(x => x.blogId)
+    @Html.HiddenFor(x => x.blogStatus)
+    @Html.HiddenFor(x => x.writerId)
+    @Html.HiddenFor(x => x.blogCreateDate)
     @Html.Label("Blog Başlığı")
     @Html.TextBoxFor(x => x.blogTitle, new {@class = "form-control"})
     @Html.ValidationMessageFor(x => x.blogTitle)

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstracts
 {
-    public interface IWriterService
+    public interface IWriterService : IGenericService<Writer>
     {
 
-        void addWriter(Writer writer);
+        List<Writer> getWriterById(int id);
 
     }
 }

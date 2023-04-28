@@ -1,12 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Concretes;
+using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CoreDemo.ViewComponents.Writer
 {
     public class WriterNatification : ViewComponent
     {
+        NotificationManager notificationManager = new NotificationManager(new EfNotificationRepository());
         public IViewComponentResult Invoke()
         {
-            return View();
+            var values = notificationManager.getList();
+            return View(values);
         }
     }
 }

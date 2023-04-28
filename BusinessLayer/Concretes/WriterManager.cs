@@ -18,9 +18,34 @@ namespace BusinessLayer.Concretes
             _writerDal = writerDal;
         }
 
-        public void addWriter(Writer writer)
+        public Writer getById(int id)
         {
-            _writerDal.insert(writer);
+            return _writerDal.getById(id);
+        }
+
+        public List<Writer> getList()
+        {
+            return _writerDal.getListAll();
+        }
+
+        public List<Writer> getWriterById(int id)
+        {
+            return _writerDal.getListAll(x => x.WriterId == id);
+        }
+
+        public void Tadd(Writer t)
+        {
+            _writerDal.insert(t);
+        }
+
+        public void Tdelete(Writer t)
+        {
+            _writerDal.delete(t);
+        }
+
+        public void Tupdate(Writer t)
+        {
+            _writerDal.update(t);
         }
     }
 }
