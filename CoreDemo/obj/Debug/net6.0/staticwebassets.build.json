@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "joWVHBF2bltda3hQ8q1TTeTk0/CX2/NYQU4H3+9daew=",
+  "Hash": "rWZuLbS26KAaPPKFusLEk8piLXZnehSHdFi6O1M7o8A=",
   "Source": "CoreDemo",
   "BasePath": "_content/CoreDemo",
   "Mode": "Default",
@@ -2669,6 +2669,23 @@
       "OriginalItemSpec": "wwwroot\\writer\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
     },
     {
+      "Identity": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\bF3.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/bF3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\bF3.png"
+    },
+    {
       "Identity": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\dashboard\\circle.png",
       "SourceId": "CoreDemo",
       "SourceType": "Discovered",
@@ -2769,6 +2786,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\F3.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/F3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\F3.png"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\F3-2.png",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/F3-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\F3-2.png"
     },
     {
       "Identity": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces\\face1.jpg",
@@ -3296,6 +3347,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\fatih.jpg",
+      "SourceId": "CoreDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\",
+      "BasePath": "_content/CoreDemo",
+      "RelativePath": "writer/assets/images/fatih.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\fatih.jpg"
     },
     {
       "Identity": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\favicon.ico",

@@ -9,8 +9,14 @@ namespace CoreDemo.Controllers
         NotificationManager notificationManager = new NotificationManager(new EfNotificationRepository());
         public IActionResult Index()
         {
-            var values = notificationManager.getList();
+            
             return View();
+        }
+
+        public IActionResult AllNotification() {
+
+            var values = notificationManager.getList();
+            return View(values);
         }
     }
 }

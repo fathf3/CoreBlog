@@ -637,6 +637,18 @@
       "PackagePath": "staticwebassets\\writer\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
     },
     {
+      "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\F3-2.png",
+      "PackagePath": "staticwebassets\\writer\\assets\\images\\F3-2.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\F3.png",
+      "PackagePath": "staticwebassets\\writer\\assets\\images\\F3.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\bF3.png",
+      "PackagePath": "staticwebassets\\writer\\assets\\images\\bF3.png"
+    },
+    {
       "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\dashboard\\circle.png",
       "PackagePath": "staticwebassets\\writer\\assets\\images\\dashboard\\circle.png"
     },
@@ -783,6 +795,10 @@
     {
       "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\faces\\face9.jpg",
       "PackagePath": "staticwebassets\\writer\\assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\fatih.jpg",
+      "PackagePath": "staticwebassets\\writer\\assets\\images\\fatih.jpg"
     },
     {
       "Id": "C:\\Users\\fatih\\Documents\\Code\\C#\\CoreDemo\\CoreDemo\\wwwroot\\writer\\assets\\images\\favicon.ico",

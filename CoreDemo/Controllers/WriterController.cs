@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CoreDemo.Controllers
 {
-    [Authorize] // -> Buraya yazılması durumunda butun ActionResult'lar Authorize olmak zorunda
+    // -> Buraya yazılması durumunda butun ActionResult'lar Authorize olmak zorunda
     public class WriterController : Controller
     {
         WriterManager writerManager = new WriterManager(new EfWriterRepository());
